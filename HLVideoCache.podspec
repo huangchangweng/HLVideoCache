@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HLVideoCache'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '对KTVHTTPCache进行封装，实现视频边下边播，实现列表视频秒开'
 
 # This description is used to generate tags and improve search results.

@@ -5,7 +5,7 @@
 ##### 支持使用CocoaPods引入, Podfile文件中添加:
 
 ```objc
-pod 'HLVideoCache', '0.1.0'
+pod 'HLVideoCache', '0.1.1'
 ```
 
 # Demonstration
@@ -43,8 +43,6 @@ config.playableUrls = urls;
 @property (nonatomic, assign) NSUInteger initPreloadNum;
 /// 视频url数组，注意：NSMutableArray
 @property (nonatomic, strong) NSMutableArray<NSString *> *playableUrls;
-/// 当前播放的视频url
-@property (nonatomic, copy) NSString *currentPlayingUrl;
 ```
 
 # Requirements
@@ -53,7 +51,11 @@ iOS 12.0 +, Xcode 11.0 +
 
 # Version
 
-* 1.0.0 :
+* 0.1.1 :
+  
+  添加销毁方法
+
+* 0.1.0 :
   
   完成HLVideoCache基础搭建
 

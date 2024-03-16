@@ -32,6 +32,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSURL *)proxyURLWithOriginalURL:(NSString *)originalURL;
 
+/**
+ * 销毁Config，并取消所有预加载
+ * 一般在视频列表ViewController-dealloc方法调用
+ */
+- (void)destroyConfig;
+
 #pragma mark List Video Method
 
 /**

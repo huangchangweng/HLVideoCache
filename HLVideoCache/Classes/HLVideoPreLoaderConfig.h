@@ -20,8 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSUInteger initPreloadNum;
 /// 视频url数组，注意：NSMutableArray
 @property (nonatomic, strong) NSMutableArray<NSString *> *playableUrls;
-/// 当前播放的视频url
-@property (nonatomic, copy) NSString *currentPlayingUrl;
 @end
 
 NS_ASSUME_NONNULL_END

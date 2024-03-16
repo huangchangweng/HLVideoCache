@@ -171,6 +171,15 @@
     return proxyURL;
 }
 
+/**
+ * 销毁Config，并取消所有预加载
+ */
+- (void)destroyConfig
+{
+    [self cancelAllPreload];
+    self.config = nil;
+}
+
 #pragma mark List Video Method
 
 /**
