@@ -1,0 +1,27 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - HLVideoCache (0.1.0):
+    - KTVHTTPCache (~> 3.0.1)
+  - KTVHTTPCache (3.0.1):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - HLVideoCache (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - KTVHTTPCache
+
+EXTERNAL SOURCES:
+  HLVideoCache:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  HLVideoCache: 81608b97555deb3c73fbcf6f768e3f5995cac447
+  KTVHTTPCache: 7946d0f2c5e1ba2a7b0321fa35a1d01b380f23be
+
+PODFILE CHECKSUM: c59cb5c676c1095db166553c0a813abda8302849
+
+COCOAPODS: 1.14.3

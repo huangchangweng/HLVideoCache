@@ -1,0 +1,6 @@
+framework module Pods_HLVideoCache_Example {
+  umbrella header "Pods-HLVideoCache_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
